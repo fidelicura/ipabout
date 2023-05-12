@@ -1,12 +1,9 @@
 [package]
-# generated
 name = "ipabout"
 version = "0.1.0"
 edition = "2021"
-
-# added
-authors = ["Kirill Bezuglyi <qoopdata@gmail.com>"]
-repository = "https://github.com/qoopdata/whereis"
+authors = ["Kirill 'fidelicura' Bezuglyi <fidelicura@gmail.com>"]
+repository = "https://github.com/fidelicura/ipabout"
 
 [dependencies]
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
